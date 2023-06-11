@@ -22,7 +22,7 @@ class EmployeeController extends GetxController {
       employeeTableDataList: employeeList,
     );
 
-    print('this is $employeeList');
+    print('this is employeeList $employeeList');
   }
 
   Future<void> addEmployee(
