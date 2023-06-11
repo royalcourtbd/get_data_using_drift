@@ -29,7 +29,7 @@ class EmployeePase extends StatelessWidget {
                   onPressed: () {
                     employeeController.addEmployee(
                       const EmployeeTableCompanion(
-                        firstName: drift.Value('Hello'),
+                        firstName: drift.Value('Sayed'),
                         lastName: drift.Value('20'),
                         userName: drift.Value('20000'),
                       ),
