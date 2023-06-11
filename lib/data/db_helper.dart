@@ -1,6 +1,5 @@
 import 'dart:developer';
 import 'dart:io';
-import 'dart:typed_data';
 import 'package:drift/drift.dart';
 import 'package:drift/native.dart';
 import 'package:get_data_using_drift/data/name_entity.dart';
@@ -23,7 +22,7 @@ LazyDatabase _openConnection() {
       final data = await rootBundle.load(path.join('assets', 'employee.db'));
       final bytes = data.buffer.asUint8List();
       await file.writeAsBytes(bytes, flush: true);
-    } 
+    }
 
     return NativeDatabase(file);
   });
