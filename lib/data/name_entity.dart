@@ -6,3 +6,5 @@ class EmployeeTable extends Table {
   TextColumn get firstName => text()();
   TextColumn get lastName => text()();
 }
+
+ 
